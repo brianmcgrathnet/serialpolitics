@@ -1,20 +1,36 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
-    font-size: 13pt;
-    font-weight: normal;
     margin-left: 20px;
     max-width: 830px;
+}
+.HeadingTagLine {
+    font-size: 11pt;
+    font-weight: bold;
+    color: darkslategrey;
+    margin: 0px;
 }
 h1 {
     font-size: 26pt;
     font-weight: bold;
     margin: 0px;
 }
-.CommentLne {
+h2 {
+    font-size: 14pt;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+h3 {
     font-size: 11pt;
     font-weight: bold;
-    color: darkslategrey;
+}
+a {
+    text-decoration: none;
+}
+.LinkLineDescription {
+    font-size: 11pt;
+    font-weight: normal;
+    color: cornflowerblue;
     margin: 0px;
 }
 .TitleLink {
@@ -34,12 +50,6 @@ h1 {
     font-size: 16pt;
     padding-top: 50px;
     padding-bottom: 60px;
-    margin: 0px;
-}
-h2 {
-    font-size: 16pt;
-    padding-top: 30px;
-    padding-bottom: 30px;
     margin: 0px;
 }
 .NewsLine {
@@ -68,11 +78,6 @@ h2 {
     font-size: 9pt;
     padding-top: 5px;
     padding-bottom: 30px;
-}
-h3 {
-    margin: 0px;
-    font-size: 13pt;
-    font-weight: normal;
 }
 h4 {
     font-size: 9pt;
