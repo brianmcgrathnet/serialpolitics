@@ -17,20 +17,24 @@ h1 {
 }
 h2 {
     font-size: 14pt;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0px;
 }
 h3 {
     font-size: 11pt;
-    font-weight: bold;
+    font-weight: normal;
+    padding-bottom: 4px;
+    margin: 0px;
 }
 a {
     text-decoration: none;
+    color: blue;
 }
 .LinkLineDescription {
     font-size: 11pt;
     font-weight: normal;
-    color: cornflowerblue;
+    color: darkred;
     margin: 0px;
 }
 .TitleLink {
