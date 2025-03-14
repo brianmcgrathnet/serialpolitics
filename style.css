@@ -26,6 +26,7 @@ h3 {
     font-weight: normal;
     padding-bottom: 4px;
     margin: 0px;
+    white-space: pre;
 }
 a {
     text-decoration: none;
