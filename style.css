@@ -15,7 +15,7 @@ h1 {
     margin: 0px;
 }
 .HeadingTagLine {
-    font-size: 16pt;
+    font-size: 18pt;
     font-weight: bold;
     color: darkslategrey;
     margin: 0px;
@@ -43,168 +43,9 @@ a {
     color: darkred;
     margin: 0px;
 }
-.TitleLink {
-    text-decoration: none;
-    color: white;
-}
-.TitleImg {
-    width: 17px;
-    height: 17px;
-}
-.TopNavLinkText {
-    color: darkslategrey;
-    text-decoration: none;
-    font-size: 8pt;
-}
 .DateLine {
     font-size: 16pt;
     padding-top: 50px;
     padding-bottom: 60px;
     margin: 0px;
-}
-.NewsLine {
-    text-indent: -15px;
-    margin-left: 15px;
-}
-.NewsLink {
-    text-decoration: none;
-    color: darkslategrey;
-}
-.NewsAuthor {
-    font-size: 9pt;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-.ArticleSummary {
-    padding-top: 10px;
-    font-size: 13pt;
-}
-.ArticleLink {
-    color: darkslategrey;
-    font-weight: normal;
-    text-decoration: none;
-}
-.ArticleAuthor {
-    font-size: 9pt;
-    padding-top: 5px;
-    padding-bottom: 30px;
-}
-h4 {
-    font-size: 9pt;
-    font-weight: normal;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin: 0px;
-}
-h5 {
-    font-size: 12pt;
-    font-weight: normal;
-    padding-bottom: 35px;
-    margin: 0px;
-}
-.FooterText {
-    color: darkslategrey;
-    text-decoration: none;
-    font-size: 10pt;
-}
-.RedArticleLink {
-    text-decoration: none;
-    color: darkslategrey;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.BlueArticleLink {
-    text-decoration: none;
-    color: darkslategrey;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.PurpleArticleLink {
-    text-decoration: none;
-    color: darkslategrey; 
-    font-weight: normal;
-    font-size: 13pt;
-}
-.GreenArticleLink {
-    text-decoration: none;
-    color: red;
-    font-weight: normal;
-    font-size: 13pt; 
-}
-.MaroonArticleLink {
-    text-decoration: none;
-    color: blue;
-    font-weight: normal;
-    font-size: 13pt; 
-}
-.OrangeArticleLink {
-    text-decoration: none;
-    color: purple;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.AnalysisArticleLink {
-    text-decoration: none;
-    color: darkslategrey;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.VotingArticleLink {
-    text-decoration: none;
-    color: cornflowerblue;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.SearchArticleLink {
-    text-decoration: none;
-    color: maroon;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.BookArticleLink {
-    text-decoration: none;
-    color: darkslategrey;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.TalkerArticleLink {
-    text-decoration: none;
-    color: grey;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.PodcastArticleLink {
-    text-decoration: none;
-    color: #a67b5b;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.CultureArticleLink {
-    text-decoration: none;
-    color: cornflowerblue;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.DataArticleLink {
-    text-decoration: none;
-    color: gray;
-    font-weight: normal;
-    font-size: 13pt;
-}
-.ArchiveTitle {
-    padding-bottom: 7px;
-}
-.ArchiveTitleLink {
-    text-decoration: none;
-    color: blue;
-    font-size: 10pt;
-}
-.ArchiveTitleLinkText {
-    color: #918151;
-    font-size: 10pt;
-}
-.ContributingLink {
-    color: black;
-    font-weight: normal;
-    font-size: 10pt;
 }
