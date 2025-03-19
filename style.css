@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
     margin-left: 10px;
-    max-width: 830px;
+    max-width: 390px;
 }
 .HeadingImg {
     width: 45px;
@@ -41,6 +41,13 @@ a {
     font-size: 11pt;
     font-weight: normal;
     color: darkred;
+    margin: 0px;
+}
+.AzLinkLine {
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0px;
 }
 .DateLine {
