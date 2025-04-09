@@ -3,7 +3,8 @@ import random
 
 def ContentSections():
 
-    line = "<h2>Independent</h2>independent_content"
+    line = "<h2>Headlines</h2>headlines_content"
+    line += "<h2>Independent</h2>independent_content"
     line += "<div class='AmazonLink'>independent_az_content</div>"
     line += "<h2>Republican</h2>republican_content"
     line += "<div class='AmazonLink'>republican_az_content</div>"
@@ -54,6 +55,7 @@ def AmazonLinks(links, category):
             break
     return content_line
 
+headlines_links = getLinks("content/LinksHeadline.csv")
 democratic_links = getLinks("content/LinksDemocrat.csv")
 amazon_links = getLinks("content/LinksAmazon.csv")
 independent_links = getLinks("content/LinksIndependent.csv")
@@ -67,6 +69,7 @@ world_links = getLinks("content/LinksWorld.csv")
 
 str_content = ContentSections()
 #str_content = DateContent(str_content)
+str_content = str_content.replace("headlines_content", ContentLinks(headlines_links)) 
 str_content = str_content.replace("democratic_content", ContentLinks(democratic_links)) 
 str_content = str_content.replace("democratic_az_content", AmazonLinks(amazon_links, "Democratic")) 
 str_content = str_content.replace("independent_content", ContentLinks(independent_links)) 
