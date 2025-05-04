@@ -17,10 +17,10 @@ def ContentSections():
     line += "<div class='AmazonLink'>pollsopinion_az_content</div>"
     line += "<h2>Regional and Local</h2>region_local_content"
     line += "<div class='AmazonLink'>regionlocal_az_content</div>"
-    line += "<h2>College and University</h2>college_university_content"
-    line += "<div class='AmazonLink'>collegeuniversity_az_content</div>"
     line += "<h2>International and World</h2>world_content"
     line += "<div class='AmazonLink'>internationalworld_az_content</div>"
+    line += "<h2>College and University</h2>college_university_content"
+    line += "<div class='AmazonLink'>collegeuniversity_az_content</div>"
     return line
 
 def getLinks(str_filepath):
